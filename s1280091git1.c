@@ -21,6 +21,7 @@ int main(){
      if(T>7){
         printf("%s won!",name);
     }
+    
     else{
         printf("%s lose!",name);
     }
