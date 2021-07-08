@@ -18,11 +18,11 @@ int main(){
 
     printf("Total value: %d\n",T);
 
-    if(T>7){
-        printf("You won!");
+     if(T>7){
+        printf("%s won!",name);
     }
     else{
-        printf("You lose!");
+        printf("%s lose!",name);
     }
 
   return 0;
