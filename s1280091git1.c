@@ -10,7 +10,14 @@ int main(){
     printf("Rolling the dice...\nDie 1:%d\n",d1);
     printf("Die 2:%d\n",d2);
 
-    printf("Total value: %d",T);
+    printf("Total value: %d\n",T);
+
+    if(T>7){
+        printf("You won!");
+    }
+    else{
+        printf("You lose!");
+    }
 
   return 0;
 }
